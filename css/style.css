@@ -1,0 +1,51 @@
+body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #eeeeee;
+  }
+  p {font-size: 16px;}
+
+  h4 {
+    padding-right: 200px;
+    padding-left: 200px;
+    color: #ffffff;
+}
+
+  .margin {margin-bottom: 45px;}
+
+  .bg-nav {
+      background-color: #282828; /* Navigation - dary gray */
+      color: #ffffff;
+  }
+  .bg-about {
+      background-color: #E6E6E6; /* About - faded white */
+      color: #282828;
+  }
+  .bg-who {
+      background-color: #282828; /* Who - dary gray */
+      color: #E6E6E6;
+  }
+  .bg-what {
+      background-color: #E6E6E6; /* What - faded white */
+      color: #282828;
+  }
+  .bg-where {
+      background-color: #282828; /* Where - dark gray */
+      color: #E6E6E6;
+  }
+  .container-fluid {
+      padding-top: 80px;
+      padding-bottom: 20px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #eeeeee !important;
+  }

@@ -3,15 +3,19 @@ body {
       line-height: 1.8;
       color: #eeeeee;
   }
-  p {font-size: 16px;}
+  p {
+    font-size: 16px;
+  }
 
   h4 {
-    padding-right: 200px;
-    padding-left: 200px;
-    color: #ffffff;
+    font: 18px Montserrat, sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
-  .margin {margin-bottom: 45px;}
+  .margin {
+    margin-bottom: 45px;
+  }
 
   .bg-nav {
       background-color: #282828; /* Navigation - dary gray */
@@ -34,8 +38,8 @@ body {
       color: #E6E6E6;
   }
   .container-fluid {
-      padding-top: 80px;
-      padding-bottom: 20px;
+      padding-top: 5%;
+      padding-bottom: 5%;
   }
   .navbar {
       padding-top: 15px;
@@ -47,5 +51,5 @@ body {
       letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-      color: #eeeeee !important;
+      color: #ffffff !important;
   }

@@ -1,77 +1,87 @@
 body {
-      padding-top: 70px;
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-  }
-  p {
+    padding-top: 70px;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+}
+p {
     font-size: 16px;
-  }
-  a { 
-    color: inherit; 
-  }
+}
+a {
+    color: inherit;
+}
 h1 {
-  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
-  font-size: 36px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26px;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 36px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26px;
 }
 h3 {
-  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
-  font-size: 24px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26px;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26px;
 }
-  h4 {
+h4 {
     font: 16px Montserrat, sans-serif;
     padding-right: 10%;
     padding-left: 10%;
 }
-
-  .margin {
+.margin {
     margin-bottom: 45px;
-  }
-
-  .bg-nav {
-      background-color: #282828; /* Navigation - dary gray */
-      color: #ffffff;
-  }
-  .bg-about {
-      background-color: #E6E6E6; /* About - faded white */
-      color: #282828;
-  }
-  .bg-who {
-      background-color: #282828; /* Who - dary gray */
-      color: #E6E6E6;
-  }
-  .bg-what {
-      background-color: #E6E6E6; /* What - faded white */
-      color: #282828;
-  }
-  .bg-where {
-      background-color: #282828; /* Where - dark gray */
-      color: #E6E6E6;
-  }
-  .bg-footer {
-      background-color: #E6E6E6; /* Navigation - dary gray */
-      color: #282828;
-  }
-  .container-fluid {
-      padding-top: 5%;
-      padding-bottom: 5%;
-  }
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #ffffff !important;
-  }
+}
+.bg-nav {
+    background-color: #282828;
+    /* Navigation - dary gray */
+    
+    color: #ffffff;
+}
+.bg-about {
+    background-color: #E6E6E6;
+    /* About - faded white */
+    
+    color: #282828;
+}
+.bg-who {
+    background-color: #282828;
+    /* Who - dary gray */
+    
+    color: #E6E6E6;
+}
+.bg-what {
+    background-color: #E6E6E6;
+    /* What - faded white */
+    
+    color: #282828;
+}
+.bg-where {
+    background-color: #282828;
+    /* Where - dark gray */
+    
+    color: #E6E6E6;
+}
+.bg-footer {
+    background-color: #E6E6E6;
+    /* Navigation - dary gray */
+    
+    color: #282828;
+}
+.container-fluid {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+    color: #ffffff !important;
+}

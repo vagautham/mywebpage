@@ -13,7 +13,7 @@ $(document).ready(function(){
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 900, function(){
+      }, 500, function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
@@ -32,3 +32,16 @@ $(document).ready(function(){
     });
   });
 })
+
+
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
+
+document.addEventListener('touchmove', function(event) {
+   if(event.target.parentNode.className.indexOf('noBounce') != -1 
+|| event.target.className.indexOf('noBounce') != -1 ) {
+    event.preventDefault(); }
+}, false);

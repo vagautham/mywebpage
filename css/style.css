@@ -1,14 +1,32 @@
 body {
+      padding-top: 70px;
       font: 20px Montserrat, sans-serif;
       line-height: 1.8;
-      color: #eeeeee;
   }
   p {
     font-size: 16px;
   }
-
+  a { 
+    color: inherit; 
+  }
+h1 {
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  font-size: 36px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+h3 {
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
   h4 {
-    font: 18px Montserrat, sans-serif;
+    font: 16px Montserrat, sans-serif;
     padding-right: 10%;
     padding-left: 10%;
 }
@@ -36,6 +54,10 @@ body {
   .bg-where {
       background-color: #282828; /* Where - dark gray */
       color: #E6E6E6;
+  }
+  .bg-footer {
+      background-color: #E6E6E6; /* Navigation - dary gray */
+      color: #282828;
   }
   .container-fluid {
       padding-top: 5%;
